@@ -35,11 +35,11 @@ footer{margin-top:30px;background:#14532d;text-align:center;font:600 .5cm Prompt
 .sum{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.sum .card{flex:0 1 240px;text-align:center}
 @media print{.no{display:none!important}body{background:#fff;color:#000}.card,.box{background:#fff;border-color:#999;color:#000}header{background:#0a2a5e!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}footer{-webkit-print-color-adjust:exact;print-color-adjust:exact}body.mo main,body.mo header,body.mo footer{display:none!important}.modal{position:static!important;background:none!important;padding:0!important;display:block!important;overflow:visible!important}.box{max-height:none!important;overflow:visible!important;max-width:100%!important;border:0!important}.box img.p{max-height:9cm}.ov{position:static;background:none;color:#000;padding:4px 0}.card{break-inside:avoid}img.p{max-width:100%}}
 </style></head><body>
-<header id="hd"><img src="logo.jpg" alt="logo"><div><h1>นพต.กองร้อยที่ 1 รุ่น 5 สระบุรี</h1><div class="slo">เหงื่อคือน้ำหอม ของลูกผู้ชาย</div></div></header>
+<header id="hd"><img src="logo.png" alt="logo"><div><h1>นพต.กองร้อยที่ 1 รุ่น 5 สระบุรี</h1><div class="slo">พวกเราคือเพื่อนกันตลอดไป</div></div></header>
 <main id="app"></main>
 <footer>เหงื่อคือน้ำหอม ของลูกผู้ชาย</footer>
 <script>
-const API='วาง_URL_WEB_APP_ที่นี่';
+const API='https://script.google.com/macros/s/AKfycbzYDCWqodAb__-PRUW9vm6-8O7F_3fnXYSVazb2FejSSaeZ8RhcBcuApE8T4UuU-63r/exec';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const PV='กรุงเทพมหานคร,กระบี่,กาญจนบุรี,กาฬสินธุ์,กำแพงเพชร,ขอนแก่น,จันทบุรี,ฉะเชิงเทรา,ชลบุรี,ชัยนาท,ชัยภูมิ,ชุมพร,เชียงราย,เชียงใหม่,ตรัง,ตราด,ตาก,นครนายก,นครปฐม,นครพนม,นครราชสีมา,นครศรีธรรมราช,นครสวรรค์,นนทบุรี,นราธิวาส,น่าน,บึงกาฬ,บุรีรัมย์,ปทุมธานี,ประจวบคีรีขันธ์,ปราจีนบุรี,ปัตตานี,พระนครศรีอยุธยา,พะเยา,พังงา,พัทลุง,พิจิตร,พิษณุโลก,เพชรบุรี,เพชรบูรณ์,แพร่,ภูเก็ต,มหาสารคาม,มุกดาหาร,แม่ฮ่องสอน,ยโสธร,ยะลา,ร้อยเอ็ด,ระนอง,ระยอง,ราชบุรี,ลพบุรี,ลำปาง,ลำพูน,เลย,ศรีสะเกษ,สกลนคร,สงขลา,สตูล,สมุทรปราการ,สมุทรสงคราม,สมุทรสาคร,สระแก้ว,สระบุรี,สิงห์บุรี,สุโขทัย,สุพรรณบุรี,สุราษฎร์ธานี,สุรินทร์,หนองคาย,หนองบัวลำภู,อ่างทอง,อำนาจเจริญ,อุดรธานี,อุตรดิตถ์,อุทัยธานี,อุบลราชธานี'.split(',');
 const SZ=['S','M','L','XL','2XL','3XL','4XL'],INC=['เงินสมทบจากสมาชิก','เงินบริจาค','ขายของที่ระลึก','รายได้อื่นๆ(ระบุ)'],EXP=['ทำบุญกับเพื่อนที่เสียชีวิต','ทำบุญกับญาติเพื่อนที่เสียชีวิต','ค่ากิจกรรมรุ่น','ค่าใช้จ่ายอื่นๆ(ระบุ)'],YR=[2565,2566,2567,2568,2569,2570];
