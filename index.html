@@ -3,12 +3,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-:root{--bg:#1c0a00;--c:#431407;--a:#c2410c;--t:#1e293b}
+:root{--bg:#1c0a00;--c:#431407;--a:#c2410c;--t:#14532d}
 *{box-sizing:border-box}body{margin:0;font-family:Sarabun,sans-serif;color:var(--t);background:linear-gradient(160deg,#ffffff,#f1f5f9 60%,#ffffff) fixed;min-height:100vh}
 header{display:flex;align-items:center;gap:14px;padding:14px 20px;background:linear-gradient(90deg,#020617cc,#0a2a5ecc);border-bottom:2px solid var(--a);background-size:cover;background-position:center}
 header.home{background-image:linear-gradient(90deg,#020617dd,#0a2a5e99),url(header.jpg);padding:40px 20px}
 header img{width:110px;height:110px;flex:none;object-fit:cover;object-position:center;border-radius:50%;border:2px solid var(--a);background:#fff}
-h1{font:600 clamp(1.6rem,5vw,3rem) Prompt;margin:0;color:#ea580c;text-shadow:0 1px 4px #000}.slo{color:#ea580c;text-shadow:0 1px 4px #000;font:600 clamp(1.1rem,3.5vw,2.2rem) Prompt}
+h1{font:600 clamp(1.6rem,5vw,3rem) Prompt;margin:0;color:#38bdf8;text-shadow:0 1px 4px #000}.slo{color:#7dd3fc;text-shadow:0 1px 4px #000;font:600 clamp(1.1rem,3.5vw,2.2rem) Prompt}
 main{max-width:1100px;margin:auto;padding:16px}
 .bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.bar .pr{margin-left:auto}
 button,.btn{background:linear-gradient(135deg,#ea580c,#9a3412);color:#fff;border:0;border-radius:10px;padding:9px 16px;font:600 .95rem Prompt;cursor:pointer}
@@ -18,12 +18,12 @@ button.g{background:#7c2d12}
 .card img.p{width:100%;height:170px;object-fit:cover;border-radius:10px;margin-bottom:8px;background:#e2e8f0}
 .mem{cursor:pointer;transition:.2s}.mem:hover{transform:translateY(-4px);border-color:var(--a)}
 .tile{text-align:center;font:600 1.05rem Prompt;cursor:pointer;padding:22px 10px}.tile:hover{background:#ffedd5}
-.stat{font:600 2rem Prompt;color:var(--a)}
+.stat{font:600 2rem Prompt;color:var(--t)}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin:14px 0}
-h2{font:600 1.2rem Prompt;color:var(--a)}small,.m{color:#64748b}
+h2{font:600 1.2rem Prompt;color:var(--t)}small,.m{color:#3f6b4f}
 .modal{position:fixed;inset:0;background:#000b;display:flex;align-items:center;justify-content:center;padding:14px;z-index:9;overflow:auto}
 .box{background:#fff;border:1px solid var(--a);border-radius:16px;padding:20px;max-width:520px;width:100%;max-height:92vh;overflow:auto}
-label{display:block;margin:8px 0 2px;font-size:.9rem}input,select,textarea{width:100%;padding:8px;border-radius:8px;border:1px solid #fdba74;background:#fff;color:#1e293b;font:inherit}
+label{display:block;margin:8px 0 2px;font-size:.9rem}input,select,textarea{width:100%;padding:8px;border-radius:8px;border:1px solid #fdba74;background:#fff;color:#14532d;font:inherit}
 .tabs button{background:#7c2d12;margin:0 4px 6px 0}.tabs button.on{background:var(--a);color:#fff}
 table{width:100%;border-collapse:collapse}td,th{padding:6px;border-bottom:1px solid #fed7aa;text-align:left;font-size:.9rem}
 .in{color:#15803d}.out{color:#dc2626}
@@ -32,11 +32,11 @@ footer{margin-top:30px;background:#14532d;text-align:center;font:600 .5cm Prompt
 .ph{position:relative;margin-bottom:8px}.ph img.p{margin:0;display:block}.ph .ph0{height:170px;border-radius:10px;background:#e2e8f0}.ov{color:#fff;position:absolute;left:0;right:0;bottom:0;padding:24px 8px 6px;border-radius:0 0 10px 10px;background:linear-gradient(transparent,#000c);font-size:.8rem;line-height:1.35}.box img.p{width:100%;max-height:45vh;object-fit:contain;border-radius:10px;margin-bottom:10px;background:#e2e8f0;display:block}
 @media print{.no{display:none!important}body{background:#fff;color:#000}.card,.box{background:#fff;border-color:#999;color:#000}header{background:#0a2a5e!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}footer{-webkit-print-color-adjust:exact;print-color-adjust:exact}body.mo main,body.mo header,body.mo footer{display:none!important}.modal{position:static!important;background:none!important;padding:0!important;display:block!important;overflow:visible!important}.box{max-height:none!important;overflow:visible!important;max-width:100%!important;border:0!important}.box img.p{max-height:9cm}.ov{position:static;background:none;color:#000;padding:4px 0}.card{break-inside:avoid}img.p{max-width:100%}}
 </style></head><body>
-<header id="hd"><img src="logo.png" alt="logo"><div><h1>นพต.กองร้อยที่ 1 รุ่น 5 สระบุรี</h1><div class="slo">พวกเราคือเพื่อนกันตลอดไป</div></div></header>
+<header id="hd"><img src="logo.jpg" alt="logo"><div><h1>นพต.กองร้อยที่ 1 รุ่น 5 สระบุรี</h1><div class="slo">เหงื่อคือน้ำหอม ของลูกผู้ชาย</div></div></header>
 <main id="app"></main>
 <footer>เหงื่อคือน้ำหอม ของลูกผู้ชาย</footer>
 <script>
-const API='https://script.google.com/macros/s/AKfycbxPUWlQFbVMCQqEvd0K93sYQUnx0EEKEQvUP2vVLR3buFHW-HSP_vIp3Kmr3CZjeM4_/exec';
+const API='วาง_URL_WEB_APP_ที่นี่';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const PV='กรุงเทพมหานคร,กระบี่,กาญจนบุรี,กาฬสินธุ์,กำแพงเพชร,ขอนแก่น,จันทบุรี,ฉะเชิงเทรา,ชลบุรี,ชัยนาท,ชัยภูมิ,ชุมพร,เชียงราย,เชียงใหม่,ตรัง,ตราด,ตาก,นครนายก,นครปฐม,นครพนม,นครราชสีมา,นครศรีธรรมราช,นครสวรรค์,นนทบุรี,นราธิวาส,น่าน,บึงกาฬ,บุรีรัมย์,ปทุมธานี,ประจวบคีรีขันธ์,ปราจีนบุรี,ปัตตานี,พระนครศรีอยุธยา,พะเยา,พังงา,พัทลุง,พิจิตร,พิษณุโลก,เพชรบุรี,เพชรบูรณ์,แพร่,ภูเก็ต,มหาสารคาม,มุกดาหาร,แม่ฮ่องสอน,ยโสธร,ยะลา,ร้อยเอ็ด,ระนอง,ระยอง,ราชบุรี,ลพบุรี,ลำปาง,ลำพูน,เลย,ศรีสะเกษ,สกลนคร,สงขลา,สตูล,สมุทรปราการ,สมุทรสงคราม,สมุทรสาคร,สระแก้ว,สระบุรี,สิงห์บุรี,สุโขทัย,สุพรรณบุรี,สุราษฎร์ธานี,สุรินทร์,หนองคาย,หนองบัวลำภู,อ่างทอง,อำนาจเจริญ,อุดรธานี,อุตรดิตถ์,อุทัยธานี,อุบลราชธานี'.split(',');
 const SZ=['S','M','L','XL','2XL','3XL','4XL'],INC=['เงินสมทบจากสมาชิก','เงินบริจาค','ขายของที่ระลึก','รายได้อื่นๆ(ระบุ)'],EXP=['ทำบุญกับเพื่อนที่เสียชีวิต','ทำบุญกับญาติเพื่อนที่เสียชีวิต','ค่ากิจกรรมรุ่น','ค่าใช้จ่ายอื่นๆ(ระบุ)'],YR=[2565,2566,2567,2568,2569,2570];
@@ -55,7 +55,7 @@ function post(t,row,act,rw){return new Promise(res=>{const f=document.createElem
 async function api(t,row,act,rw){if(row)return post(t,row,act,rw);const r=await fetch(API+'?t='+t+'&pw='+encodeURIComponent(PW)+(location.hash=='#manage'?'&m=1':''));const j=await r.json();if(j.error)throw j.error;return j}
 function login(){PW=$('#pw').value.trim();sessionStorage.pw=PW;go()}
 function gate(a){a.innerHTML=bar()+`<div class="card" style="max-width:360px;margin:auto"><h2>🔒 ใส่รหัสผ่าน</h2><label>รหัสผ่าน</label><input id="pw" type="password" onkeydown="if(event.key=='Enter')login()"><div class="bar" style="margin-top:10px"><button onclick="login()">เข้าสู่ระบบ</button></div></div>`}
-const chart=(id,type,labels,data,opt={})=>CH.push(new Chart($(id),{type,data:{labels,datasets:[{data,backgroundColor:['#fb923c','#f59e0b','#ef4444','#fdba74','#d97706','#fcd34d','#ea580c','#b45309','#f97316','#fbbf24']}]},options:{plugins:{legend:{display:type!='bar',labels:{color:'#1e293b'}}},scales:type=='bar'?{x:{ticks:{color:'#334155'}},y:{ticks:{color:'#334155',precision:0}}}:{},...opt}}));
+const chart=(id,type,labels,data,opt={})=>CH.push(new Chart($(id),{type,data:{labels,datasets:[{data,backgroundColor:['#0ea5e9','#2563eb','#38bdf8','#6366f1','#06b6d4','#1d4ed8','#14b8a6','#7dd3fc','#818cf8','#0369a1']}]},options:{plugins:{legend:{display:type!='bar',labels:{color:'#14532d'}}},scales:type=='bar'?{x:{ticks:{color:'#14532d'}},y:{ticks:{color:'#14532d',precision:0}}}:{},...opt}}));
 const bar=(add)=>`<div class="bar no">${location.hash?'<button class="g" onclick="location.hash=\'\'">← กลับหน้าหลัก</button>':''}${add||''}<button class="g pr" onclick="print()">🖨 พิมพ์เอกสาร</button></div>`;
 const pic=u=>u?`<img class="p" loading="lazy" src="${esc(u)}" alt="">`:'';
 function compress(f){return new Promise((ok,no)=>{const i=new Image();i.onload=()=>{const k=Math.min(1,1280/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=Math.round(i.width*k);c.height=Math.round(i.height*k);const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(i,0,0,c.width,c.height);let q=.85,d;do{d=c.toDataURL('image/jpeg',q);q-=.1}while(d.length*.75>45e4&&q>.3);d.length*.75>3e6?no('ภาพใหญ่เกินไป'):ok(d)};i.onerror=()=>no('อ่านภาพไม่ได้');i.src=URL.createObjectURL(f)})}
